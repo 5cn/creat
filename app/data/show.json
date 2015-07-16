@@ -1,0 +1,576 @@
+{
+    "magazine": {
+        "id": 84009,
+        "wgUser": null,
+        "pageslist": [
+            {
+                "pageNum": "1",
+                "elementsList": [
+                    {
+                        "elementChild": {
+                            "alignmentFunction": null,
+                            "fontsize": "28px",
+                            "border": null,
+                            "bordercrude": null,
+                            "borderStyle": null,
+                            "fontstyle": null,
+                            "color": "rgb(0, 0, 0)",
+                            "backgroundColor": "rgb(255, 255, 255)",
+                            "lineHeight": "1.5",
+                            "content": "\n                                <h2 style=\"font-size: 60px;font-weight: normal;padding:26px 0 10px 0;\">困难</h2>就像隧道一开进去就不能调头，<p style=\"padding:12px 0 26px 0;\">坚持下去，阳光就在前方。</p>\n                            "
+                        },
+                        "styles": [
+                            {
+                                "type": "action",
+                                "key": "slideRight"
+                            }
+                        ],
+                        "opacityOpacity": "1",
+                        "elementType": "text",
+                        "fillet": null,
+                        "rotation": 0,
+                        "positionX": "0px",
+                        "positionY": "562px",
+                        "width": "640px",
+                        "height": "248px",
+                        "shadow": null,
+                        "id": 0
+                    },
+                    {
+                        "elementChild": {
+                            "fillColor": "rgb(207, 205, 205)",
+                            "styleId": null,
+                            "height": "300px",
+                            "width": "300px"
+                        },
+                        "styles": [
+                            {
+                                "type": "action",
+                                "key": "fadeInNormal"
+                            },
+                            {
+                                "type": "shape",
+                                "key": "7"
+                            }
+                        ],
+                        "opacityOpacity": "1",
+                        "elementType": "shape",
+                        "fillet": null,
+                        "rotation": 0,
+                        "positionX": "112px",
+                        "positionY": "181px",
+                        "width": "300px",
+                        "height": "300px",
+                        "shadow": null,
+                        "id": 1
+                    },
+                    {
+                        "elementChild": {
+                            "fontcolor": "rgb(117, 111, 111)",
+                            "fontsize": "40px",
+                            "backgroundcolor": "rgb(255, 255, 255)",
+                            "border": "rgb(175, 174, 174)",
+                            "borderstyle": "1px",
+                            "bordercrude": "solid",
+                            "height": 70,
+                            "width": 150,
+                            "url": "http://www.5.cn/",
+                            "context": "按钮"
+                        },
+                        "opacityOpacity": "1",
+                        "elementType": "btn",
+                        "fillet": "8px",
+                        "rotation": null,
+                        "positionX": "0px",
+                        "positionY": "0px",
+                        "width": "148px",
+                        "height": "70px",
+                        "shadow": "0px",
+                        "id": 2
+                    }
+                ],
+                "backgroundImage": {
+                    "fillcolor": "rgb(255, 255, 255)",
+                    "pageId": null,
+                    "fuzzy": 0,
+                    "styles": [
+                        {
+                            "type": "action",
+                            "key": "slideLeft"
+                        }
+                    ],
+                    "opacityOpacity": "1",
+                    "image": {
+                        "url": "url(http://60.247.26.242:58001/c3735030-bb31-4a88-835b-801513782c6c.jpg) 0px 0px / 100% 100% no-repeat",
+                        "type": null
+                    },
+                    "id": 10
+                }
+            },
+            {
+                "pageNum": "2",
+                "elementsList": [
+                    {
+                        "elementChild": {
+                            "alignmentFunction": null,
+                            "fontsize": "26px",
+                            "border": null,
+                            "bordercrude": null,
+                            "borderStyle": null,
+                            "fontstyle": null,
+                            "color": "rgb(0, 0, 0)",
+                            "backgroundColor": "rgb(255, 255, 255)",
+                            "lineHeight": "1.5",
+                            "content": "岁暮阴阳催短景"
+                        },
+                        "styles": [
+                            {
+                                "type": "action",
+                                "key": "slideRight"
+                            }
+                        ],
+                        "opacityOpacity": "1",
+                        "elementType": "text",
+                        "fillet": null,
+                        "rotation": 0,
+                        "positionX": "50px",
+                        "positionY": "120px",
+                        "width": "28px",
+                        "height": "auto",
+                        "shadow": null,
+                        "id": 0
+                    },
+                    {
+                        "elementChild": {
+                            "alignmentFunction": null,
+                            "fontsize": "26px",
+                            "border": null,
+                            "bordercrude": null,
+                            "borderStyle": null,
+                            "fontstyle": null,
+                            "color": "rgb(255, 255, 255)",
+                            "backgroundColor": "rgb(0, 0, 0)",
+                            "lineHeight": "1.5",
+                            "content": "岁暮阴阳催短景"
+                        },
+                        "styles": [
+                            {
+                                "type": "action",
+                                "key": "slideRight"
+                            }
+                        ],
+                        "opacityOpacity": "1",
+                        "elementType": "text",
+                        "fillet": null,
+                        "rotation": 0,
+                        "positionX": "115px",
+                        "positionY": "220px",
+                        "width": "28px",
+                        "height": "auto",
+                        "shadow": null,
+                        "id": 1
+                    }
+                ],
+                "backgroundImage": {
+                    "fillcolor": "rgb(255, 255, 255)",
+                    "pageId": null,
+                    "fuzzy": 0,
+                    "styles": [
+                        {
+                            "type": "action",
+                            "key": "slideLeft"
+                        }
+                    ],
+                    "opacityOpacity": "1",
+                    "image": {
+                        "url": "url(http://60.247.26.242:58001/680b557d-adc2-488e-b5a5-b45a9180cd52.jpg) 0px 0px / 100% 100% no-repeat",//url() bixuyou hou mian canshukeyimeiyou
+                        "type": null
+                    },
+                    "id": 10
+                }
+            },
+            {
+                "pageNum": "3",
+                "elementsList": [
+                    {
+                        "elementChild": {
+                            "alignmentFunction": null,
+                            "fontsize": "58px",
+                            "border": null,
+                            "bordercrude": null,
+                            "borderStyle": null,
+                            "fontstyle": null,
+                            "color": "rgb(0, 0, 0)",
+                            "backgroundColor": "transparent",
+                            "lineHeight": "1.5",
+                            "content": "生活"
+                        },
+                        "styles": [
+                            {
+                                "type": "action",
+                                "key": "zoomInDown"
+                            }
+                        ],
+                        "opacityOpacity": "1",
+                        "elementType": "text",
+                        "fillet": null,
+                        "rotation": 0,
+                        "positionX": "66px",
+                        "positionY": "120px",
+                        "width": "auto",
+                        "height": "auto",
+                        "shadow": null,
+                        "id": 0
+                    },
+                    {
+                        "elementChild": {
+                            "height": "312px",
+                            "width": "500px",
+                            "fuzzyImg": 0,
+                            "image": {
+                                "url": "http://60.247.26.242:58001/0478614e-a2fb-4f19-9f26-fc92def972d9.png",
+                                "uid": null,
+                                "id": 0,
+                                "type": null
+                            }
+                        },
+                        "styles": [
+                            {
+                                "type": "action",
+                                "key": ""
+                            }
+                        ],
+                        "elementType": "img",
+                        "opacityOpacity": "",
+                        "positionX": "20px",
+                        "positionY": "218px"
+                    },
+                    {
+                        "elementChild": {
+                            "alignmentFunction": null,
+                            "fontsize": "24px",
+                            "border": null,
+                            "bordercrude": null,
+                            "borderStyle": null,
+                            "fontstyle": null,
+                            "color": "rgb(255, 255, 255)",
+                            "backgroundColor": "rgb(0, 0, 0)",
+                            "lineHeight": "1.5",
+                            "content": "生命如艺术品一样，不论其长短，都在生命的过程中彰显着属于他的奇妙意义。我的这段生命也许只是为了一段旅程，也许只是为了一段风景，也许只是为了一段爱情，这正是生命的伟大意义之所在。"
+                        },
+                        "styles": [
+                            {
+                                "type": "action",
+                                "key": "rotateInDownRight"
+                            }
+                        ],
+                        "opacityOpacity": "0.5",
+                        "elementType": "text",
+                        "fillet": null,
+                        "rotation": 0,
+                        "positionX": "50px",
+                        "positionY": "612px",
+                        "width": "490px",
+                        "height": "auto",
+                        "shadow": null,
+                        "id": 2
+                    }
+                ],
+                "backgroundImage": {
+                    "fillcolor": "rgb(255, 255, 255)",
+                    "pageId": null,
+                    "fuzzy": 0,
+                    "styles": [
+                        {
+                            "type": "action",
+                            "key": "slideRight"
+                        }
+                    ],
+                    "opacityOpacity": "1",
+                    "image": {
+                        "url": "url(http://60.247.26.242:58001/83662c20-b947-46ac-9326-a7f1f55d1ad6.jpg) 0px 0px / 100% 100% no-repeat",
+                        "type": null
+                    },
+                    "id": 10
+                }
+            },
+            {
+                "pageNum": "4",
+                "elementsList": [
+                    {
+                        "elementChild": {
+                            "alignmentFunction": null,
+                            "fontsize": "90px",
+                            "border": null,
+                            "bordercrude": null,
+                            "borderStyle": null,
+                            "fontstyle": null,
+                            "color": "rgb(255, 255, 255)",
+                            "backgroundColor": "transparent",
+                            "lineHeight": "1.5",
+                            "content": "永恒是什么？"
+                        },
+                        "styles": [
+                            {
+                                "type": "action",
+                                "key": "zoomInDown"
+                            }
+                        ],
+                        "opacityOpacity": "1",
+                        "elementType": "text",
+                        "fillet": null,
+                        "rotation": 0,
+                        "positionX": "61px",
+                        "positionY": "168px",
+                        "width": "auto",
+                        "height": "auto",
+                        "shadow": null,
+                        "id": 0
+                    },
+                    {
+                        "elementChild": {
+                            "alignmentFunction": null,
+                            "fontsize": "28px",
+                            "border": null,
+                            "bordercrude": null,
+                            "borderStyle": null,
+                            "fontstyle": null,
+                            "color": "rgb(255, 255, 255)",
+                            "backgroundColor": "transparent",
+                            "lineHeight": "1.5",
+                            "content": "信念就是永恒的，一瞬即永恒"
+                        },
+                        "styles": [
+                            {
+                                "type": "action",
+                                "key": "expandUp"
+                            }
+                        ],
+                        "opacityOpacity": "1",
+                        "elementType": "text",
+                        "fillet": null,
+                        "rotation": 0,
+                        "positionX": "126px",
+                        "positionY": "288px",
+                        "width": "auto",
+                        "height": "auto",
+                        "shadow": null,
+                        "id": 1
+                    }
+                ],
+                "backgroundImage": {
+                    "fillcolor": "rgb(255, 255, 255)",
+                    "pageId": null,
+                    "fuzzy": 0,
+                    "styles": [
+                        {
+                            "type": "action",
+                            "key": "slideRight"
+                        }
+                    ],
+                    "opacityOpacity": "1",
+                    "image": {
+                        "url": "url(http://60.247.26.242:58001/25e2b97d-1f30-4e16-9540-7c000f485278.jpg) 0px 0px / 100% 100% no-repeat",
+                        "type": null
+                    },
+                    "id": 10
+                }
+            },
+            {
+                "pageNum": "5",
+                "elementsList": [
+                    {
+                        "elementChild": {
+                            "alignmentFunction": null,
+                            "fontsize": "42px",
+                            "border": null,
+                            "bordercrude": null,
+                            "borderStyle": null,
+                            "fontstyle": null,
+                            "color": "rgb(0, 0, 0)",
+                            "backgroundColor": "transparent",
+                            "lineHeight": "",
+                            "content": "为你"
+                        },
+                        "styles": [
+                            {
+                                "type": "action",
+                                "key": "zoomInDown"
+                            }
+                        ],
+                        "opacityOpacity": "1",
+                        "elementType": "text",
+                        "fillet": null,
+                        "rotation": 0,
+                        "positionX": "300px",
+                        "positionY": "60px",
+                        "width": "auto",
+                        "height": "auto",
+                        "shadow": null,
+                        "id": 0
+                    },
+                    {
+                        "elementChild": {
+                            "alignmentFunction": null,
+                            "fontsize": "24px",
+                            "border": null,
+                            "bordercrude": null,
+                            "borderStyle": null,
+                            "fontstyle": null,
+                            "color": "rgb(0, 0, 0)",
+                            "backgroundColor": "rgb(255, 255, 255)",
+                            "lineHeight": "1.5",
+                            "content": "幸福已经和我隔了一整个世纪"
+                        },
+                        "styles": [
+                            {
+                                "type": "action",
+                                "key": "slideRight"
+                            }
+                        ],
+                        "opacityOpacity": "1",
+                        "elementType": "text",
+                        "fillet": null,
+                        "rotation": 0,
+                        "positionX": "257px",
+                        "positionY": "136px",
+                        "width": "314px",
+                        "height": "auto",
+                        "shadow": null,
+                        "id": 1
+                    },
+                    {
+                        "elementChild": {
+                            "alignmentFunction": null,
+                            "fontsize": "24px",
+                            "border": null,
+                            "bordercrude": null,
+                            "borderStyle": null,
+                            "fontstyle": null,
+                            "color": "rgb(255, 255, 255)",
+                            "backgroundColor": "rgb(0, 0, 0)",
+                            "lineHeight": "1.5",
+                            "content": "是我永远都触碰不到的遥远"
+                        },
+                        "styles": [
+                            {
+                                "type": "action",
+                                "key": "slideLeft"
+                            }
+                        ],
+                        "opacityOpacity": "1",
+                        "elementType": "text",
+                        "fillet": null,
+                        "rotation": 0,
+                        "positionX": "257px",
+                        "positionY": "186px",
+                        "width": "314px",
+                        "height": "auto",
+                        "shadow": null,
+                        "id": 2
+                    }
+                ],
+                "backgroundImage": {
+                    "fillcolor": "rgb(255, 255, 255)",
+                    "pageId": null,
+                    "fuzzy": 0,
+                    "styles": [
+                        {
+                            "type": "action",
+                            "key": "slideRight"
+                        }
+                    ],
+                    "opacityOpacity": "1",
+                    "image": {
+                        "url": "url(http://60.247.26.242:58001/8eab1288-c072-4089-bda4-00d4d68f8c11.jpg) 0px 0px / 100% 100% no-repeat",
+                        "type": null
+                    },
+                    "id": 10
+                }
+            },
+            {
+                "pageNum": "6",
+                "elementsList": [
+                    {
+                        "elementChild": {
+                            "alignmentFunction": null,
+                            "fontsize": "52px",
+                            "border": null,
+                            "bordercrude": null,
+                            "borderStyle": null,
+                            "fontstyle": null,
+                            "color": "rgb(0, 0, 0)",
+                            "backgroundColor": "transparent",
+                            "lineHeight": "1.8",
+                            "content": "为你"
+                        },
+                        "styles": [
+                            {
+                                "type": "action",
+                                "key": "fadeIn"
+                            }
+                        ],
+                        "opacityOpacity": "1",
+                        "elementType": "text",
+                        "fillet": null,
+                        "rotation": 0,
+                        "positionX": "76px",
+                        "positionY": "160px",
+                        "width": "auto",
+                        "height": "auto",
+                        "shadow": null,
+                        "id": 0
+                    },
+                    {
+                        "elementChild": {
+                            "alignmentFunction": null,
+                            "fontsize": "26px",
+                            "border": null,
+                            "bordercrude": null,
+                            "borderStyle": null,
+                            "fontstyle": null,
+                            "color": "rgb(0, 0, 0)",
+                            "backgroundColor": "transparent",
+                            "lineHeight": "1.8",
+                            "content": "听着你喜爱的歌。却没发觉有什么不一样。或许我只是应付你去找这些歌听听吧，没有用心去感受的音乐的却普通得不能在普通何况还是英文歌。我有的时候真是不明白为什么你会把时间花在。<p style=\"text-indent:40px;\">终生寻找所谓别人认可的东西,会永远痛失自己的快卡通相架乐和幸福.庸俗的评论会烟灭自己的个性,世俗的指点会让自己不知所措.为钱而钱使自己六亲不认,为权而权会使自己胆大妄为,为名而名会使自己巧取强夺,真实的我在刻意的追逐之中,会变成一张张碎片随风飘扬,世俗的我已变得面目可憎。</p>"
+                        },
+                        "styles": [
+                            {
+                                "type": "action",
+                                "key": "fadeIn"
+                            }
+                        ],
+                        "opacityOpacity": "1",
+                        "elementType": "text",
+                        "fillet": null,
+                        "rotation": 0,
+                        "positionX": "80px",
+                        "positionY": "300px",
+                        "width": "490px",
+                        "height": "auto",
+                        "shadow": null,
+                        "id": 1
+                    }
+                ],
+                "backgroundImage": {
+                    "fillcolor": "rgb(255, 255, 255)",
+                    "pageId": null,
+                    "fuzzy": 0,
+                    "styles": [
+                        {
+                            "type": "action",
+                            "key": "slideRight"
+                        }
+                    ],
+                    "opacityOpacity": "1",
+                    "image": {
+                        "url": "url(http://60.247.26.242:58001/f4d0e921-1b9e-4950-94b2-36cc4c580b44.jpg) 0px 0px / 100% 100% no-repeat",
+                        "type": null
+                    },
+                    "id": 10
+                }
+            }
+        ],
+        "name": null
+    }
+}

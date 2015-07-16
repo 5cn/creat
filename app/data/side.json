@@ -1,0 +1,23 @@
+{
+    "wx": {
+        "title": "降低男性死亡率不想多活两年就别看！",
+        "img": "http://img.800.cn/2015/05/13/f_555310285120f.jpg",
+        "con": "降低男性死亡率的方法：请告诉你身边的男人！"
+    },
+    "magazine": {
+        "saved": 10000,
+        "readed": 100000000
+    },
+    "user": {
+        "avatar": "img/user_img.jpg",
+        "liked": 5201314,
+        "fans": 11111,
+        "observers": 123232,
+        "recommendUrl": "http://www.baidu.com",
+        "hotUrl": "http://www.baidu.com",
+        "newestUrl": "http://www.baidu.com",
+        "restMagazineUrl": "http://www.baidu.com",
+        "homeUrl": "http://www.baidu.com",
+        "downloadUrl": "http://www.baidu.com"
+    }
+}

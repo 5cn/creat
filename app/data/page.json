@@ -1,0 +1,539 @@
+{
+    "id": "",
+    "wgUser": "",
+    "name": "",
+    "obj": {
+        "pageslist": [{
+            "pageNum": "1",
+            "elementsList": [{
+                "elementType": "img",
+                "elementChild": {
+                    "width": "200px",
+                    "height": "100px",
+                    "fillColor": "black",
+                    "image": {
+                        "url": "img/img03.jpg"
+                    }
+                },
+                "styles": [
+
+                ],
+                "pageId": "",
+                "opacityOpacity": "1",
+                "fillet": "",
+                "rotation": "",
+                "positionX": "10px",
+                "positionY": "10px",
+                "shadow": "",
+                "id": "3"
+            },  {
+                "elementType": "img",
+                "elementChild": {
+                    "width": "200px",
+                    "height": "100px",
+                    "fillColor": "black",
+                    "image": {
+                        "url": "img/img02.jpg"
+                    }
+                },
+                "styles": [
+                    {
+                                "type": "action",
+                                "key": "slideRight"
+                            }
+                ],
+                "pageId": "",
+                "opacityOpacity": "1",
+                "fillet": "",
+                "rotation": "",
+                "positionX": "10px",
+                "positionY": "10px",
+                "shadow": "",
+                "id": 3
+            }, {
+                "elementType": "img",
+                "elementChild": {
+                    "width": "200px",
+                    "height": "100px",
+                    "fillColor": "black",
+                    "image": {
+                        "url": "img/img03.jpg"
+                    }
+                },
+                "styles": [
+                    {
+                                "type": "action",
+                                "key": "slideRight"
+                            }
+                ],
+                "pageId": "",
+                "opacityOpacity": 1,
+                "fillet": "",
+                "rotation": "",
+                "positionX": "10px",
+                "positionY": "10px",
+                "shadow": "",
+                "id": 3
+            }],
+            "backgroundImage": {
+                "fillcolor": "rgb(255,255,255)",
+                "pageId": "",
+                "fuzzy": 0,
+                "styles": [{
+                    "type": "action",
+                    "key": "sideLeft"
+                }],
+                "opacityOpacity": "1",
+                "image": {
+                    "url": "url(img/1.jpg)",
+                    "type": ""
+                },
+                "id": 10
+            }
+        },{
+            "pageNum": 1,
+            "elementsList": [{
+                "elementType": "img",
+                "elementChild": {
+                    "width": "200px",
+                    "height": "100px",
+                    "fillColor": "black",
+                    "image": {
+                        "url": "img/1.jpg"
+                    }
+                },
+                "styles": [
+                    {
+                                "type": "action",
+                                "key": "slideRight"
+                            }
+                ],
+                "pageId": "",
+                "opacityOpacity": "1",
+                "fillet": "",
+                "rotation": "",
+                "positionX": "10px",
+                "positionY": "10px",
+                "shadow": "",
+                "id": 3
+            },  {
+                "elementType": "img",
+                "elementChild": {
+                    "width": "200px",
+                    "height": "100px",
+                    "fillColor": "black",
+                    "image": {
+                        "url": "img/2.jpg"
+                    }
+                },
+                "styles": [
+                    {
+                                "type": "action",
+                                "key": "slideRight"
+                            }
+                ],
+                "pageId": "",
+                "opacityOpacity": "1",
+                "fillet": "",
+                "rotation": "",
+                "positionX": "10px",
+                "positionY": "10px",
+                "shadow": "",
+                "id": 3
+            }, {
+                "elementType": "img",
+                "elementChild": {
+                    "width": "200px",
+                    "height": "100px",
+                    "fillColor": "black",
+                    "image": {
+                        "url": "img/3.jpg"
+                    }
+                },
+                "styles": [
+
+                ],
+                "pageId": "",
+                "opacityOpacity": "1",
+                "fillet": "",
+                "rotation": "",
+                "positionX": "10px",
+                "positionY": "10px",
+                "shadow": "",
+                "id": 3
+            }],
+            "backgroundImage": {
+                "fillcolor": "rgb(255,255,255)",
+                "pageId": "",
+                "fuzzy": 0,
+                "styles": [{
+                    "type": "action",
+                    "key": "sideLeft"
+                }],
+                "opacityOpacity": "1",
+                "image": {
+                    "url": "url(img/2.jpg)",
+                    "type": ""
+                },
+                "id": 10
+            }
+        },{
+            "pageNum": 1,
+            "elementsList": [{
+                "elementType": "img",
+                "elementChild": {
+                    "width": "200px",
+                    "height": "100px",
+                    "fillColor": "black",
+                    "image": {
+                        "url": "img/5.jpg"
+                    }
+                },
+                "styles": [
+                    {
+                                "type": "action",
+                                "key": "slideRight"
+                            }
+                ],
+                "pageId": "",
+                "opacityOpacity": "1",
+                "fillet": "",
+                "rotation": "",
+                "positionX": "10px",
+                "positionY": "10px",
+                "shadow": "",
+                "id": 3
+            },  {
+                "elementType": "img",
+                "elementChild": {
+                    "width": "200px",
+                    "height": "100px",
+                    "fillColor": "black",
+                    "image": {
+                        "url": "img/6.jpg"
+                    }
+                },
+                "styles": [
+                    {
+                                "type": "action",
+                                "key": "slideRight"
+                            }
+                ],
+                "pageId": "",
+                "opacityOpacity": "1",
+                "fillet": "",
+                "rotation": "",
+                "positionX": "10px",
+                "positionY": "10px",
+                "shadow": "",
+                "id": 3
+            }, {
+                "elementType": "img",
+                "elementChild": {
+                    "width": "200px",
+                    "height": "100px",
+                    "fillColor": "black",
+                    "image": {
+                        "url": "img/7.jpg"
+                    }
+                },
+                "styles": [
+                    {
+                                "type": "action",
+                                "key": "slideRight"
+                            }
+                ],
+                "pageId": "",
+                "opacityOpacity": "1",
+                "fillet": "",
+                "rotation": "",
+                "positionX": "10px",
+                "positionY": "10px",
+                "shadow": "",
+                "id": 3
+            }],
+            "backgroundImage": {
+                "fillcolor": "rgb(255,255,255)",
+                "pageId": "",
+                "fuzzy": 0,
+                "styles": [{
+                    "type": "action",
+                    "key": "sideLeft"
+                }],
+                "opacityOpacity": "1",
+                "image": {
+                    "url": "url(img/3.jpg)",
+                    "type": ""
+                },
+                "id": 10
+            }
+        },{
+            "pageNum": 1,
+            "elementsList": [{
+                "elementType": "img",
+                "elementChild": {
+                    "width": "200px",
+                    "height": "100px",
+                    "fillColor": "black",
+                    "image": {
+                        "url": "img/9.jpg"
+                    }
+                },
+                "styles": [
+                    {
+                                "type": "action",
+                                "key": "slideRight"
+                            }
+                ],
+                "pageId": "",
+                "opacityOpacity": "1",
+                "fillet": "",
+                "rotation": "",
+                "positionX": "10px",
+                "positionY": "10px",
+                "shadow": "",
+                "id": 3
+            },  {
+                "elementType": "img",
+                "elementChild": {
+                    "width": "200px",
+                    "height": "100px",
+                    "fillColor": "black",
+                    "image": {
+                        "url": "img/10.jpg"
+                    }
+                },
+                "styles": [
+                    {
+                                "type": "action",
+                                "key": "slideRight"
+                            }
+                ],
+                "pageId": "",
+                "opacityOpacity": "1",
+                "fillet": "",
+                "rotation": "",
+                "positionX": "10px",
+                "positionY": "10px",
+                "shadow": "",
+                "id": 3
+            }, {
+                "elementType": "img",
+                "elementChild": {
+                    "width": "200px",
+                    "height": "100px",
+                    "fillColor": "black",
+                    "image": {
+                        "url": "img/11.jpg"
+                    }
+                },
+                "styles": [
+                    {
+                                "type": "action",
+                                "key": "slideRight"
+                            }
+                ],
+                "pageId": "",
+                "opacityOpacity": "1",
+                "fillet": "",
+                "rotation": "",
+                "positionX": "10px",
+                "positionY": "10px",
+                "shadow": "",
+                "id": 3
+            }],
+            "backgroundImage": {
+                "fillcolor": "rgb(255,255,255)",
+                "pageId": "",
+                "fuzzy": 0,
+                "styles": [{
+                    "type": "action",
+                    "key": "sideLeft"
+                }],
+                "opacityOpacity": "1",
+                "image": {
+                    "url": "url(img/4.jpg)",
+                    "type": ""
+                },
+                "id": 10
+            }
+        },{
+            "pageNum": 1,
+            "elementsList": [{
+                "elementType": "img",
+                "elementChild": {
+                    "width": "200px",
+                    "height": "100px",
+                    "fillColor": "black",
+                    "image": {
+                        "url": "img/13.jpg"
+                    }
+                },
+                "styles": [
+                    {
+                                "type": "action",
+                                "key": "slideRight"
+                            }
+                ],
+                "pageId": "",
+                "opacityOpacity": "1",
+                "fillet": "",
+                "rotation": "",
+                "positionX": "10px",
+                "positionY": "10px",
+                "shadow": "",
+                "id": 3
+            },  {
+                "elementType": "img",
+                "elementChild": {
+                    "width": "200px",
+                    "height": "100px",
+                    "fillColor": "black",
+                    "image": {
+                        "url": "img/img02.jpg"
+                    }
+                },
+                "styles": [
+                    {
+                                "type": "action",
+                                "key": "slideRight"
+                            }
+                ],
+                "pageId": "",
+                "opacityOpacity": "1",
+                "fillet": "",
+                "rotation": "",
+                "positionX": "10px",
+                "positionY": "10px",
+                "shadow": "",
+                "id": 3
+            }, {
+                "elementType": "img",
+                "elementChild": {
+                    "width": "200px",
+                    "height": "100px",
+                    "fillColor": "black",
+                    "image": {
+                        "url": "img/img03.jpg"
+                    }
+                },
+                "styles": [
+                    {
+                                "type": "action",
+                                "key": "slideRight"
+                            }
+                ],
+                "pageId": "",
+                "opacityOpacity": "1",
+                "fillet": "",
+                "rotation": "",
+                "positionX": "10px",
+                "positionY": "10px",
+                "shadow": "",
+                "id": 3
+            }],
+            "backgroundImage": {
+                "fillcolor": "rgb(255,255,255)",
+                "pageId": "",
+                "fuzzy": 0,
+                "styles": [{
+                    "type": "action",
+                    "key": "sideLeft"
+                }],
+                "opacityOpacity": "1",
+                "image": {
+                    "url": "url(img/5.jpg)",
+                    "type": ""
+                },
+                "id": 10
+            }
+        },{
+            "pageNum": 1,
+            "elementsList": [{
+                "elementType": "img",
+                "elementChild": {
+                    "width": "200px",
+                    "height": "100px",
+                    "fillColor": "black",
+                    "image": {
+                        "url": "img/img03.jpg"
+                    }
+                },
+                "styles": [
+                    {
+                                "type": "action",
+                                "key": "slideRight"
+                            }
+                ],
+                "pageId": "",
+                "opacityOpacity": "1",
+                "fillet": "",
+                "rotation": "",
+                "positionX": "10px",
+                "positionY": "10px",
+                "shadow": "",
+                "id": 3
+            },  {
+                "elementType": "img",
+                "elementChild": {
+                    "width": "200px",
+                    "height": "100px",
+                    "fillColor": "black",
+                    "image": {
+                        "url": "img/img02.jpg"
+                    }
+                },
+                "styles": [
+                    {
+                                "type": "action",
+                                "key": "slideRight"
+                            }
+                ],
+                "pageId": "",
+                "opacityOpacity": "1",
+                "fillet": "",
+                "rotation": "",
+                "positionX": "10px",
+                "positionY": "10px",
+                "shadow": "",
+                "id": 3
+            }, {
+                "elementType": "img",
+                "elementChild": {
+                    "width": "200px",
+                    "height": "100px",
+                    "fillColor": "black",
+                    "image": {
+                        "url": "img/img03.jpg"
+                    }
+                },
+                "styles": [
+
+                ],
+                "pageId": "",
+                "opacityOpacity": "1",
+                "fillet": "",
+                "rotation": "",
+                "positionX": "10px",
+                "positionY": "10px",
+                "shadow": "",
+                "id": 3
+            }],
+            "backgroundImage": {
+                "fillcolor": "rgb(255,255,255)",
+                "pageId": "",
+                "fuzzy": 0,
+                "styles": [{
+                    "type": "action",
+                    "key": "sideLeft"
+                }],
+                "opacityOpacity": "1",
+                "image": {
+                    "url": "url(img/6.jpg)",
+                    "type": ""
+                },
+                "id": 10
+            }
+        }]
+    }
+}

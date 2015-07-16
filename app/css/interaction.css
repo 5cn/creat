@@ -1,0 +1,40 @@
+/*互动模块*/
+#clickme{
+    position: absolute;
+    background-color:black;
+    width:100px;
+    height:100px;
+    bottom: 100px;
+    z-index: 99;
+}
+.inter{
+    position: absolute;
+    background-color:#252525;
+    width:640px;
+    height:101px;
+    bottom: 0;
+    z-index: 99;
+	opacity:0;
+	transition:all 300ms ease-in;
+	-webkit-transition:all 300ms ease-out;
+	transform:translate3d(0px, 100px, 0px);
+	-webkit-transform:translate3d(0px, 100px, 0px);
+}
+
+.inter.show {
+	opacity:1;
+	transform:translate3d(0px, 0px, 0px);
+	-webkit-transform:translate3d(0px, 0px, 0px);
+}
+.inter a{ width:55px; height:45px; display:inline-block; margin:25px 10px 0 90px; }
+.inter .l { float:left;}
+.inter .r { float:right;}
+.inter a.i-back { background:url(../../img/b_nav_icon.png) no-repeat 0px 0px; background-size:100%; margin-left:10px;}
+.inter a.i-reviews { background:url(../../img/b_nav_icon.png) no-repeat 0 -57px; background-size:100%;}
+.inter a.i-good { background:url(../../img/b_nav_icon.png) no-repeat 0 -115px; background-size:100%;}
+.inter a.i-Share { background:url(../../img/b_nav_icon.png) no-repeat 0 -170px; background-size:100%;}
+.inter a.i-red{
+    background: url(../../img/b_nav_icon.png) no-repeat 0 -220px;
+    background-size: 100%;
+}
+.inter .r span {color:#fa3174;font-size: 28px;font-family: Arial, sans-serif; position: absolute;top: 35px;margin-left: -5px;}

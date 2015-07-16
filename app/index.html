@@ -1,0 +1,154 @@
+<!doctype html>
+<html lang="ch">
+<head>
+<title></title>
+<base href="http://mookservice.5.cn/readHTML5/">
+<meta name="keywords" content="dior">
+<meta name="description" content="dior">
+<meta charset="utf-8">
+<meta name="apple-touch-fullscreen" content="YES">
+<meta name="format-detection" content="telephone=no">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black">
+<meta http-equiv="Expires" content="-1">
+<meta http-equiv="pragram" content="no-cache">
+<link rel="stylesheet" href="css/bin/maga.min.css">
+<script type="text/javascript">
+(function(){var e=-1;var t=parseInt(window.screen.width);var i=t/640;var n=navigator.userAgent;if(/Android (\d+\.\d+)/.test(n)){var a=parseFloat(RegExp.$1);if(a>2.3){document.write('<meta name="viewport" content="width=640, minimum-scale = '+i+", maximum-scale = "+i+', target-densitydpi=device-dpi">')}else{document.write('<meta name="viewport" content="width=640, target-densitydpi=device-dpi">')}}else{document.write('<meta name="viewport" content="width=640, user-scalable=no, target-densitydpi=device-dpi">')}})();var ldzx=ldzx||{config:{saved:false,attentioned:false,isApp:false},ctrl:{_prevent:function(e){e.preventDefault()},stop:function(){},start:function(){}}};var isFireFox=navigator.userAgent.search(/FireFox/i)>-1;if(isFireFox){var html=document.querySelector("html");html.style.overflow="hidden";html.style.width="100%";html.style.fontFamily="Microsoft YaHei"}
+</script>
+<script type="text/maga" id="maga">
+    <section class="u-arrow f-hide">
+        <p class="css_sprite01 updown"></p>
+    </section>
+    <section class="p-ct">
+        <div class="translate-back f-hide">
+            <%_.each(pages,function(page,index){%>
+                <div class="<%-page.effects%> m-page <%-index===0?'m-fengye':'m-bigTxt'%> f-hide">
+                    <div class="<%-page.effects%> page-con lazy-img <%-page.bkEffects[0]?'bkEffects':''%>" data-src="<%-page.background.style['background-image'].replace(/url\((.{0,})\)/,'$1')%>" data-bg="<%-page.noBk%>" style="background-color:<%-page.bkColor%>;opacity:<%-page.bkOpacity%>;"></div>
+                    <div class="page-bk">
+                        <%_.each(page.floatages,function(floatage,index){%> 
+                            <%if(floatage.type==='image'){%>
+                                <div style="<%-JSON.stringify(floatage.preStyle).replace(/","/g,'"; "').replace(/[\{\}\"]/g,'').replace(/(\s[-\w]{2,})(?=:;)/g,' ').replace(/:;\s/g,'').replace(/\s[-\w]{2,}(?=:$)/,'').replace(/:$/,'')%>">
+                                    <img data-src="<%-floatage.src%>" class="<%-floatage.effects.join(' ')%> lazy-img floatage f-img" style="<%-JSON.stringify(floatage.style).replace(/","/g,'"; "').replace(/[\{\}\"]/g,'').replace(/(\s[-\w]{2,})(?=:;)/g,' ').replace(/:;\s/g,'').replace(/\s[-\w]{2,}(?=:$)/,'').replace(/:$/,'')%>">
+                                </div>
+                            <%}%>
+                            <%if(floatage.type==='btn'){%>
+                                <div style="<%-JSON.stringify(floatage.preStyle).replace(/","/g,'"; "').replace(/[\{\}\"]/g,'').replace(/(\s[-\w]{2,})(?=:;)/g,' ').replace(/:;\s/g,'').replace(/\s[-\w]{2,}(?=:$)/,'').replace(/:$/,'')%>">
+                                    <a href="<%-(floatage.src)%>" target="_Blank" class="<%-floatage.effects.join(' ')%> f-btn floatage" style="<%-JSON.stringify(floatage.style).replace(/","/g,'"; "').replace(/[\{\}\"]/g,'').replace(/(\s[-\w]{2,})(?=:;)/g,' ').replace(/:;\s/g,'').replace(/\s[-\w]{2,}(?=:$)/,'').replace(/:$/,'')%>" class="<%-floatage.effects.join(' ')%>  floatage">
+                                        <%-floatage.value%>
+                                    </a>
+                                </div>
+                            <%}%>
+                            <%if(floatage.type==='shape'){%>
+                                <div style="<%-JSON.stringify(floatage.preStyle).replace(/","/g,'"; "').replace(/[\{\}\"]/g,'').replace(/(\s[-\w]{2,})(?=:;)/g,' ').replace(/:;\s/g,'').replace(/\s[-\w]{2,}(?=:$)/,'').replace(/:$/,'')%>">
+                                    <div data-src="<%-floatage.src%>" class="<%-floatage.effects.join(' ')%> lazy-img floatage f-shape" style="<%-JSON.stringify(floatage.style).replace(/","/g,'"; "').replace(/[\{\}\"]/g,'').replace(/(\s[-\w]{2,})(?=:;)/g,' ').replace(/:;\s/g,'').replace(/\s[-\w]{2,}(?=:$)/,'').replace(/:$/,'')%>">
+                                    </div>
+                                </div>
+                            <%}%>
+                            <%if(floatage.type==='text'){%>
+                                <div style="<%-JSON.stringify(floatage.preStyle).replace(/","/g,'"; "').replace(/[\{\}\"]/g,'').replace(/(\s[-\w]{2,})(?=:;)/g,' ').replace(/:;\s/g,'').replace(/\s[-\w]{2,}(?=:$)/,'').replace(/:$/,'')%>">
+                                    <div class="<%-floatage.effects.join(' ')%> floatage f-text <%-floatage.textAlign%> <%-floatage.textClass%>" style="<%-JSON.stringify(floatage.style).replace(/","/g,'"; "').replace(/[\{\}\"]/g,'').replace(/(\s[-\w]{2,})(?=:;)/g,' ').replace(/:;\s/g,'').replace(/\s[-\w]{2,}(?=:$)/,'').replace(/:$/,'')%>">
+                                            <%_.each(floatage.value,function(item,index){%>
+                                                <p><%-item%></p>
+                                            <%})%>
+                                    </div>
+                                </div>
+                            <%}%>
+                        <%})%>
+                    </div>
+                </div>
+            <%});%>
+        </div>
+    </section>
+</script>
+<script type="text/side" id="sidejs">
+    <div class="left_menu">
+        <span>目 录</span>
+        <span id="pageIndex">1/<%-side.length%></span>
+    </div>
+    <div class="right_menu">
+        <span>菜 单</span>
+    </div>
+    <div class="left_side ">
+        <div class="back">
+            <span><em></em>目录</span>
+        </div>
+        <div class="catalogue">
+            <div class="catalogueContent">
+                <%_.each(side,function(item,index,side){%>
+                    <%if(item.src){%>
+                        <div style="background-image:url(<%-item.src%>)" class="smallImg">
+                            <span><%=index+1%></span>
+                        </div>
+                    <%}else{%>
+                        <div style="background-color:<%-item.backgroundColor%>" class="smallImg">
+                            <span><%=index+1%></span>
+                        </div>
+                    <%}%>
+                <%});%>
+            </div>
+        </div>
+        <div class="catalogueFoter">
+            <%if(audio.name){%>
+                <div>背景音乐：<%-audio.name%></div>
+            <%}%>
+            <div>收藏：<%-magazine.saved%></div>
+            <div>阅读量：<%-magazine.readed%></div>
+        </div>
+    </div>
+    <div class="right_side f-hide ">
+        <div class="menu_nav">
+			<div class="menu_top"><img src="<%-user.avatar%>"></div>
+			<div class="back">
+				<span><em></em>菜单</span>
+			</div>
+			<div class="user_img" style="background: url(<%-user.avatar%>) center;">
+				<a href="<%-user.message%>"><div class="message"><em></em></div></a>
+				<a href="<%-user.attention%>"><div class="attention">关 注</div></a>
+				<div class="name"><%-user.name%></div>
+			</div>
+		</div>
+		<div class="reputation">
+			<div><span><%-user.liked%></span><span>喜欢</span></div>
+			<div><span><%-user.fans%></span><span>粉丝</span></div>
+			<div><span><%-user.observers%></span><span>关注</span></div>
+		</div>
+		<div class="other_list">
+			<ul>
+				<li><a href="<%-user.recommendUrl%>">推荐杂志</a></li>
+				<li><a href="<%-user.hotUrl%>">热门杂志</a></li>
+				<li><a href="<%-user.newestUrl%>">最新杂志</a></li>
+				<li><a href="<%-user.restMagazineUrl%>">该作者其他杂志</a></li>
+				<li><a href="<%-user.homeUrl%>">首页</a></li>
+				<%if(!isApp){%>
+                    <li><a href="<%-user.downloadUrl%>">移动端下载</a></li>
+                <%}%>
+			</ul>
+		</div>
+    </div>
+</script>
+<script type="text/temp" id="inter">
+<div class="inter">
+    <div class="l">
+        <a href="<%-back%>" class="i-back"></a>
+    </div>
+    <div class="r">
+        <a href="<%-reviews%>" class="i-reviews"></a>
+		<span><%-comment%></span>
+        <a href="<%-good%>" class="i-good"></a>
+		<span><%-saved%></span>
+        <a href="<%-share%>" class="i-Share"></a>
+    </div>
+</div>
+</script>
+</head>
+<body>
+<script src="js/bin/init.min.js?v=1" defer async></script>
+<script type="text/javascript">
+    var _bdhmProtocol = (("https:" == document.location.protocol) ? " https://" : " http://");
+    document.write(unescape("%3Cscript src='" + _bdhmProtocol + "hm.baidu.com/h.js%3F28d43317e8a419b40943c2a7906e7fd9' type='text/javascript'%3E%3C/script%3E"));
+
+</script>
+</body>
+</html>
+

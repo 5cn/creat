@@ -1,0 +1,150 @@
+/*侧边栏模块*/
+
+.right_menu,.left_menu  {
+    position: absolute;
+    width: 140px;
+    height: 60px;
+	line-height:60px;
+    border: 1px solid #fff;
+	top:20px;
+	font-size:24px;
+	text-align:center;	
+	color:#fff;
+	border-radius:8px;
+	transition:all 300ms ease-out;
+	-webkit-transition:all 300ms ease-out;
+	transform:translate3d(0px, -60px, 0px);
+	-webkit-transform:translate3d(0px, -60px, 0px);
+	opacity:0;
+	z-index:999;
+}
+.left_menu {
+ 
+    left: 100px;
+  
+}
+.right_menu {right: 100px;}
+
+.right_menu.show,.left_menu.show {
+	opacity:1;
+	transform:translate3d(0px, 0px, 0px);
+	-webkit-transform:translate3d(0px, 0px, 0px); 
+}
+
+
+.left_side{
+    position: absolute;
+	left: 0; 
+	top:0;
+	bottom:0;
+    width: 300px;
+	overflow:hidden;
+    z-index: 1000;
+    background-color: black;
+	-webkit-transition:all 300ms ease-in-out;
+	transform:translate3d(-300px, 0px, 0px);
+	-webkit-transform:translate3d(-300px, 0px, 0px);
+}
+.right_side{
+    position: absolute;
+	top:0;
+	bottom:0;
+	right: 0; 
+    width: 420px;
+	overflow:hidden; 
+    z-index: 1000;
+    background:rgba(0,0,0,0.9);
+	-webkit-transition:all 300ms ease-in-out;
+	transform:translate3d(640px, 0px, 0px);
+	-webkit-transform:translate3d(640px, 0px, 0px);
+
+  
+}
+.left_side.f-show {
+	transform:translate3d(0, 0, 0);
+	-webkit-transform:translate3d(0, 0, 0);
+}
+.right_side.f-show {
+	transform:translate3d(0, 0, 0);
+	-webkit-transform:translate3d(0, 0, 0);
+}
+
+.back{
+    width: 120px;
+    height: 90px;
+    font-size: 30px;
+    color: #fff;
+	position:relative;
+	margin-left:20px;
+	letter-spacing:2px;
+}
+.back span { position:absolute; bottom:10px; left:0}
+.back em { display:inline-block; position:relative; top:8px; width:40px; height:40px; background:url(../../img/icon.png) 0 -38px; background-size:100%;}
+.catalogue{
+    width: 300px;
+ 	height: 80%;
+	overflow:auto;
+	-webkit-overflow-scrolling: touch;
+    opacity: 0.8;
+}
+.catalogueContent{
+    width: 300px;
+}
+
+.smallImg{
+    width: 120px;
+    height: -webkit-calc((100vh - 200px - 50px)/4);
+    margin-left: 20px;
+    margin-top: 10px;
+    display: inline-block;
+	position:relative;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.smallImg span {
+	position:absolute;
+	right:0;
+	bottom:0;
+	width:20px;
+	height:20px;
+	line-height:20px;
+	background:#fa3174;
+	color:#fff;
+	font-size:14px;
+	text-align:center;
+	}
+.catalogueFoter {
+	padding:15px 0 0 20px;
+	color:#fff;
+	font-size:16px;
+	line-height:24px;
+	height:123px;
+	
+}
+
+
+.menu_nav {width:420px;height:340px;overflow:hidden;position:relative;  }	
+.menu_top { width:420px; height:340px; -webkit-filter:blur(20px); 
+filter:blur(20px); position:absolute; left:0; top:0; background:url(../../img/user_img.jpg); filter: url(blur.svg#blur);}
+.menu_top img { width:420px; height:340px;}
+.user_img { width:150px; height:150px; border-radius:150px; background-size:100%; background:url(../../img/user_img.jpg) center; position:relative; top:20px; margin:0 auto;}
+.user_img .message,.user_img .attention  { width:70px; height:70px; border-radius:60px; background:rgba(0,0,0,0.2); position:absolute; top:45px;}
+.user_img .message { left:-90px;}
+.user_img .message em { display:inline-block; width:60px; height:60px;  background:url(../../img/icon.png) 5px 4px; background-size:100%; }
+.user_img .attention { right:-90px; color:#fff; background:#fa3174 url(../../img/icon.png) 0px -150px; background-size:100%; line-height:96px; font-size:15px; text-align:center;}
+.user_img .name { width:150px; height:150px; text-align:center; font-size:26px; color:#fff; position:absolute; top:160px;}
+
+.reputation { display:-webkit-box; }
+.reputation div {-webkit-box-flex:1; border-right:1px solid #525255; box-sizing:border-box;padding:10px 0;}
+.reputation div:last-child{border-right:none;}
+.reputation div span { display:inline-block; width:100%; text-align:center; color:#fff; line-height:40px; font-size:24px;}
+
+.other_list { border-top:1px solid #525255; height:50%; overflow:auto; -webkit-overflow-scrolling:touch;}
+
+.other_list ul li a { display:block; color:#fff; height:80px; line-height:80px; font-size:24px; padding-left:20px; border-bottom:1px solid #525255;}
+
+@media (device-height:480px) and (-webkit-min-device-pixel-ratio:2){/* 兼容iphone4/4s */
+.other_list ul li { width:50%; float:left;}
+}
+
+.fw { position:absolute; left:0; top:0; background:#333; opacity:0.5; width:100%; height:100%; z-index:99;}
